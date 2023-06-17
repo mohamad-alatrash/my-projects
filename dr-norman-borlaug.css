@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+  }
+  main{
+    background:linear-gradient(90deg, rgb(138, 120, 103) 0%, rgba(202, 198, 185, 0.703) 42%);
+padding:20px;
+margin-bottom:2rem;
+margin-top:2rem;
+  }
+
+h1,.suptitle{
+  text-align:center;
+}
+figure{
+    background:linear-gradient(90deg, rgb(138, 120, 103,0.2) 0%, rgba(202, 198, 185, 0.703) 42%);
+  margin:0 auto;
+  text-align:center;
+  padding-bottom:1rem;
+}
+img{
+    display: block;
+    margin:0 auto;
+
+}
+figcaption{
+    margin-top:1rem;
+    
+}
+.tribute-info{
+    width: 100%;
+    margin:0 auto;
+    background: linear-gradient(90deg, rgb(138, 120, 103,0.2) 0%, rgba(202, 198, 185, 0.703) 42%);
+
+}
+ul{
+  max-width: 600px;
+  margin:0 auto;
+  text-align: left;
+
+}
+li{
+  margin:0.8rem 0 0;
+
+}
+.center{
+    max-width: 600px;
+    text-align: center;
+    margin:0 auto ;
+}
+.center :nth-child(2)
+{
+    text-align: left;
+}
+main :last-child{
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid hsla(46, 68%, 18%, 0.8) ;
+}
+a:hover{
+
+    color: aliceblue;
+    
+}
+h3{
+    text-align: center;
+}

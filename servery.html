@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+   <head>
+     <meta charset="utf-8">
+      <link rel="stylesheet" href="servry.css">
+  </head>
+
+<body>
+  <div class="container">
+ <h1 id="title">freeCodeCamp Survey Form </h1>
+  <p id="description">Thank you for taking the time to help us improve the platform </p>
+  <form id="survey-form">
+    <fieldset>
+    <label id="name-label">Name
+      <input class="width" id="name" type="text" required placeholder="name"></input>
+    </label>
+    <label id="email-label">Eamil
+      <input class="width" type="email" id="email" required placeholder="email"></input>
+    </label>
+    <label id="number-label"> AGE
+      <input class="width" type="number" id="number" min="15" max="120" placeholder="number"></input>
+    </label>
+  <label>Which Option Describes Your Current Role?
+    <select class="width" id="dropdown"> 
+      <option>select current role</option>
+      <option>student </option>
+      <option>full time job </option>
+      <option>full time learner</option>
+      <option>prefer not to say</option>
+    </select>
+  </label>    
+</fieldset>
+  <label> Whould you recommend freeCodCamp to a frind!</label>
+  
+<fieldset> 
+  </label>
+  <label>Definitely
+    <input id="maybe" type="radio"   name="maybe-definitely" value="Definitely"></input>
+  </label>
+  <label>Maybe
+    <input id="definitely" type="radio" 
+    name="maybe-definitely" value="Maybe"></input>
+  </label>
+</fieldset>
+<fieldset>
+<label> What whould you like to see improved?</label>
+<label>front-end-projects
+    <input type="checkbox" value="front-end-projects"></input>
+  </label>
+  <label>  back-end-projects
+    <input type="checkbox" value="back-end-projects"></input>
+  </label>
+  <label> data-visualizition
+    <input type="checkbox" value="data-visualizition"></input>
+  </label>
+  <label> challenges
+    <input type="checkbox" value="challenges"></input>
+  </label>
+  <label> open-sourc-commuinty
+    <input type="checkbox" value="open-sourc-commuinty"></input>
+  </label>
+  <label> gitter-help-rooms
+    <input type="checkbox" value="gitter-help-rooms"></input>
+  </label>
+  <label> videos
+    <input type="checkbox" value="videos"></input>
+  </label>
+  <label> wiki
+    <input type="checkbox" value="wiki"></input>
+  </label>
+  <label> forum"
+    <input type="checkbox" value="forum"></input>
+  </label> 
+  <label> additional-courses
+    <input type="checkbox" value="additional-courses"></input>
+ </label>
+</fieldset>
+
+  <label> provid a bio
+    <textarea></textarea>
+  </label>
+  <div class="but-center">
+  <button type="submit" id="submit">submit</button>
+</div>
+  </form>
+</div>
+</body>
+</HTML>
